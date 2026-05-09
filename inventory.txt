@@ -1,0 +1,7 @@
+Multimeter|3|45.99|Electronics
+Soldering Iron|2|29.50|Electronics
+Resistor 10k Pack|25|2.49|Components
+Breadboard|10|6.99|Components
+Wire Spool|4|12.00|Components
+Safety Goggles|15|4.25|Safety
+Lab Notebook|30|3.50|Supplies
