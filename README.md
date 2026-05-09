@@ -6,7 +6,9 @@ This project is a command-line inventory manager written in C++. It lets the use
 
 My purpose for writing this software was to deepen my understanding of core C++ syntax and program structure: header/implementation files, classes with constructors and accessors, the STL containers `std::vector` and `std::map`, file streams (`ifstream` / `ofstream`), and defensive input validation in a long-running menu loop.
 
-[Software Demo Video](https://youtu.be/PLACEHOLDER)
+Demo: https://youtu.be/1pDZu7Ln_R8
+
+
 
 # Development Environment
 
