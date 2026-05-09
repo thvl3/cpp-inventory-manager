@@ -1,14 +1,4 @@
-// Command-line inventory manager. Demonstrates C++ basics required for
-// CSE 310 Module 1: variables, expressions, conditionals, loops, functions,
-// a class with constructors, STL containers (vector and map), and file I/O
-// (the stretch challenge).
-//
-// Build:  make
-// Run:    ./inventory
-//
-// On startup the program tries to load inventory.txt from the working
-// directory. On exit it offers to save back to the same file.
-
+// Ethan Hulse 2026
 #include <iostream>
 #include <limits>
 #include <string>
@@ -31,8 +21,6 @@ bool readLine(const std::string& prompt, std::string& out) {
     return true;
 }
 
-// Reads an integer in the range [minValue, maxValue]. Re-prompts on bad
-// input rather than throwing, which keeps the menu loop friendly.
 bool readInt(const std::string& prompt, int& out, int minValue, int maxValue) {
     while (true) {
         std::string line;
@@ -189,12 +177,11 @@ void doLoad(InventoryManager& inv) {
     }
 }
 
-}  // namespace
+} 
 
 int main() {
     InventoryManager inv;
 
-    // Best-effort load on startup. A missing file is fine for first run.
     if (inv.loadFromFile(kDefaultDataFile)) {
         std::cout << "Loaded " << inv.size() << " item(s) from "
                   << kDefaultDataFile << "." << std::endl;
